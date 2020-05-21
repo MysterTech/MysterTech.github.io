@@ -242,7 +242,7 @@ textarea {
   color: var(--primary-dark);
 }
 .header__title__logo {
-  max-width: 7rem;
+  max-width: 14rem;
   vertical-align: middle;
   width: 100%;
 }
