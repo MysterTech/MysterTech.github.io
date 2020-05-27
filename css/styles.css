@@ -1,0 +1,115 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: darkslategray;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main ul {
+  margin: auto;
+  padding: 20px 0 0;
+  list-style: none;
+  text-align: right;
+}
+
+.main ul li {
+  float: none;
+  display: inline-block;
+}
+
+.main ul li:nth-child(1) {
+  float: left;
+}
+.main ul li:nth-child(2) {
+  float: left;
+}
+.main ul li:nth-child(3) {
+  float: left;
+}
+
+.main ul li a {
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
+  font-family: roboto;
+  padding: 5px 20px;
+}
+
+.main ul li a:hover {
+  transition: 1s;
+  background-color: gray;
+  border-radius: 10px;
+  color: black;
+}
+
+#navbar {
+  width: 100%;
+  position: fixed;
+  transition: top 0.3s;
+}
+
+.logo {
+  padding-top: 6px;
+  max-height: 3rem;
+  position: absolute;
+  left: 40%;
+  transform: translate(0, 0);
+  content: "";
+  transition: 1s;
+}
+
+#imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../images/brand-logo-without-title.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60vh;
+}
+
+.scrollArrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scrollArrow span {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animatedArrow 2s infinite;
+}
+.scrollArrow span:nth-child(2) {
+  animation-delay: -0.2s;
+}
+.scrollArrow span:nth-child(3) {
+  animation-delay: -0.4s;
+}
+@keyframes animatedArrow {
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}

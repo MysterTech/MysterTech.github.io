@@ -1,0 +1,74 @@
+.header {
+  background-color: white;
+  box-shadow: 0 1px 5px #bdbdbd;
+  display: inline-flex;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+#navbar {
+  background-color: #fff; /* Black background color */
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: bottom 0.3s; /* Transition effect when sliding down (and up) */
+}
+
+/* Style the navbar links */
+#navbar a {
+  float: left;
+  display: flex;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  align-items: center;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.logoImg {
+  padding-bottom: 10vh;
+  height: 50vh;
+  width: 50vh;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main ul {
+  margin: auto;
+  padding: 15rem;
+  list-style: none;
+  text-align: right;
+}
+
+.main ul li {
+  float: none;
+  display: inline-block;
+}
+
+/* .main ul li:nth-child(1) {
+    float: left;
+  }
+  .main ul li:nth-child(2) {
+    float: left;
+  }
+  .main ul li:nth-child(3) {
+    float: right;
+  } */
