@@ -7,8 +7,8 @@ window.onscroll = function () {
 function scrollFunction() {
   var elmnt = document.getElementById("imageBox");
   if (
-    document.body.scrollTop > elmnt.clientHeight * 0.5 ||
-    document.documentElement.scrollTop > elmnt.clientHeight * 0.5
+    document.body.scrollTop > elmnt.clientHeight * 0.9 ||
+    document.documentElement.scrollTop > elmnt.clientHeight * 0.9
   ) {
     document.getElementById("navbar").style.top = "0px";
   } else {
