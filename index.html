@@ -53,20 +53,6 @@
 
   <body>
     <header class="header">
-      <div class="header__title">
-        <a
-          href="http://www.mystertech.com/"
-          class="header__title__link"
-          alt="Home"
-        >
-          <img
-            src="http://www.mystertech.com/images/brand-logo-with-title.png"
-            class="header__title__logo"
-            alt="MysterTech"
-          />
-        </a>
-      </div>
-
       <nav class="menu" aria-label="menu">
         <ul class="menu__items" aria-label="menu">
           <li class="menu__items__item" aria-label="Home">
@@ -111,6 +97,19 @@
           </li>
         </ul>
       </nav>
+      <div class="header__title">
+        <a
+          href="http://www.mystertech.com/"
+          class="header__title__link"
+          alt="Home"
+        >
+          <img
+            src="http://www.mystertech.com/images/brand-logo-with-title.png"
+            class="header__title__logo"
+            alt="MysterTech"
+          />
+        </a>
+      </div>
       <nav class="hamburger-menu" aria-label="mobile-menu">
         <div class="toggle">
           <input
@@ -172,7 +171,7 @@
     <main
       class="hero"
       style="
-        background-image: url('http://www.mystertech.com/images/undraw_freelancer_b0my.png');
+        background-image: url('http://www.mystertech.com/images/undraw_freelancer_b0my_resized.png');
       "
     >
       <div class="hero__caption">
@@ -356,9 +355,11 @@
       <div class="copy">
         <p>© 2020 - MysterTech</p>
       </div>
-
+      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.5/lib/darkmode-js.min.js"></script>
+      <script>
+        new Darkmode().showWidget();
+      </script>
       <script src="http://www.mystertech.com/js/bundle.min.243a483d5297388ef2f4a1b2d5e5d30218e01e8a2dfe213a376ea24d130837c860762a23e9daaa68ae3a7bcd5a3869287a14dc3b738f10486cf4e8fb4291b478.js"></script>
-
       <script
         defer
         src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"

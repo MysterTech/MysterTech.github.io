@@ -223,7 +223,7 @@ textarea {
 .header {
   background-color: var(--white);
   box-shadow: 0 1px 5px var(--divider);
-  display: grid;
+  display: inline-flex;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   position: fixed;
@@ -236,7 +236,7 @@ textarea {
   display: flex;
   font-size: 1.1rem;
   justify-content: flex-start;
-  margin: 1rem 4.5rem;
+  margin: 1rem 6rem;
 }
 .header__title__link {
   color: var(--primary-dark);
@@ -345,6 +345,7 @@ textarea {
   height: 90vh;
   justify-content: flex-start;
   width: 100%;
+  isolation: isolate;
 }
 .hero__caption {
   align-items: flex-start;
@@ -752,6 +753,8 @@ textarea {
   .hamburger-menu {
     display: grid;
     visibility: visible;
+    vertical-align: middle;
+    margin-top: 5%;
   }
   .hamburger__items__item {
     margin-right: 1.75rem;
