@@ -63,6 +63,7 @@ thead {
   margin: 0;
 }
 html {
+  scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 1em;
 }
