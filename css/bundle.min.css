@@ -733,9 +733,11 @@ textarea {
 @media only screen and (max-width: 992px) {
   .hero__caption > h1 {
     font-size: var(--subtitle);
+    color: whitesmoke;
   }
   .hero__caption > h2 {
     font-size: 1.25rem;
+    color: whitesmoke;
   }
   .pagination {
     width: 50%;
@@ -810,6 +812,12 @@ textarea {
   }
   .hero__caption {
     margin: 0 1.75rem;
+  }
+  .hero__caption > h1 {
+    color: whitesmoke;
+  }
+  .hero__caption > h2 {
+    color: whitesmoke;
   }
   .contact__field > input {
     width: 20rem;
