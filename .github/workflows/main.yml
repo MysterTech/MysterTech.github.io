@@ -16,5 +16,5 @@ jobs:
       with:
         ftp-server: sftp://mystertech.com:221
         ftp-username: 3441847_mystertech
-        ftp-password: ${{ secrets.SFTP_PASSWORD }}
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure
