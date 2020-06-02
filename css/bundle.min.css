@@ -169,7 +169,7 @@ th {
   --header: 1.999rem;
   --subheader: 1.414rem;
   --primary: #ffc107;
-  --primary-dark: #ffa000;
+  --primary-dark: #ff8c3a;
   --primary-light: #ffecb3;
   --primary-text: #212121;
   --secondary-text: #333333;
@@ -222,6 +222,7 @@ textarea {
   resize: none;
 }
 .header {
+  background-color: var(--white);
   display: inline-flex;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -238,12 +239,15 @@ textarea {
   margin: 1rem 6rem;
 }
 .header__title__link {
-  color: var(--primary-dark);
+  color: var(--primary-light);
 }
 .header__title__logo {
   max-width: 14rem;
   vertical-align: middle;
   width: 100%;
+}
+#navbar {
+  transition: top 0.4s;
 }
 .menu {
   align-items: center;
