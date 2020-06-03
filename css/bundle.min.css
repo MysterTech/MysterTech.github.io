@@ -189,7 +189,7 @@ a:hover {
 }
 body {
   color: var(--primary-text);
-  background-color: cornsilk;
+  background-color: rgb(44, 43, 39);
 }
 figcaption {
   font-size: 0.9rem;
@@ -223,7 +223,7 @@ textarea {
   resize: none;
 }
 .header {
-  background-color: var(--white);
+  background-color: rgb(44, 43, 39);
   display: inline-flex;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
@@ -237,7 +237,10 @@ textarea {
   display: flex;
   font-size: 1.1rem;
   justify-content: flex-start;
-  margin: 1rem 8rem;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 41%;
+  z-index: -999;
 }
 .header__title__link {
   color: var(--primary-light);
@@ -265,7 +268,7 @@ textarea {
   margin: 0 1.5rem;
 }
 .menu__items__item__link {
-  color: var(--primary-text);
+  color: white;
   padding: 0.5rem 0;
   position: relative;
 }
@@ -349,9 +352,9 @@ textarea {
   height: 100vh;
   justify-content: flex-start;
   width: 100%;
-  isolation: isolate;
 }
 .hero__caption {
+  color: whitesmoke;
   align-items: flex-start;
   animation: focus 0.95s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   display: flex;
@@ -372,15 +375,21 @@ textarea {
 .section {
   margin: 0;
   text-justify: distribute;
-  height: 100vh;
 }
 #work {
   margin-top: 0;
   margin-left: 5%;
   width: 90%;
 }
-.section__title {
+#work .section__title {
+  color: whitesmoke;
   font-size: 100px;
+  text-align: left;
+}
+#work .section__content {
+  background-color: rgb(10, 190, 106);
+  font-size: 100px;
+  margin-top: -3rem;
   margin-bottom: 1.75rem;
   text-align: left;
 }
