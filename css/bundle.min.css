@@ -398,8 +398,8 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-h1#work__heading {
-  font-weight: 800;
+h1#work_heading {
+  font-weight: 700;
   color: whitesmoke;
   padding-top: 50px;
 }
