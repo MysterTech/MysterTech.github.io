@@ -187,7 +187,7 @@ a {
 a:hover {
   color: var(--primary-dark);
 }
-body {
+.body {
   color: var(--primary-text);
   background-color: rgb(44, 43, 39);
 }
@@ -258,6 +258,7 @@ textarea {
   display: flex;
   hyphens: none;
   margin-right: 4.5rem;
+  margin-top: 20px;
 }
 .menu__items {
   display: flex;
@@ -388,12 +389,21 @@ textarea {
   font-weight: bold;
 }
 #work .section__content {
-  background-color: rgb(10, 190, 106);
-  font-size: 100px;
   margin-top: -5rem;
-  margin-bottom: 1.75rem;
-  text-align: left;
 }
+.okra_section {
+  background-color: rgb(10, 190, 106);
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1#work__heading {
+  font-weight: 800;
+  color: whitesmoke;
+  padding-top: 50px;
+}
+
 .separator {
   align-items: center;
   display: flex;
