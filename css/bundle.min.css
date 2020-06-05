@@ -403,6 +403,10 @@ h1#work_heading {
   color: whitesmoke;
   padding-top: 50px;
 }
+img#work_logo {
+  width: 60px;
+  padding-bottom: 25px;
+}
 
 .separator {
   align-items: center;
