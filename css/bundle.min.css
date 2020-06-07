@@ -389,7 +389,7 @@ textarea {
   font-weight: bold;
 }
 #work .section__content {
-  margin-top: -5rem;
+  margin-top: -4.5rem;
 }
 .okra_section {
   background-color: rgb(10, 190, 106);
@@ -398,6 +398,10 @@ textarea {
   align-items: center;
   justify-content: center;
 }
+a.okra_section:hover {
+  text-decoration: none;
+}
+
 h1#work_heading {
   font-weight: 700;
   color: whitesmoke;
@@ -407,7 +411,12 @@ img#work_logo {
   width: 60px;
   padding-bottom: 25px;
 }
-
+#work_description_col {
+  text-align: center;
+}
+p#work_description_light {
+  color: white;
+}
 .separator {
   align-items: center;
   display: flex;
