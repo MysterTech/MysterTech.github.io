@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - master
+      - openElements
 name: Publish Website
 jobs:
   FTP-Deploy-Action:
