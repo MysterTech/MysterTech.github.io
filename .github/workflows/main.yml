@@ -15,7 +15,7 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        ftp-server: sftp://mystertech.com:221
-        ftp-username: 3441847_mystertech
+        ftp-server: ftp://panel.freehosting.com
+        ftp-username: dev1@mystertech.com
         ftp-password: ${{ secrets.FTP_PASSWORD }}
         git-ftp-args: --insecure
