@@ -1,0 +1,29 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+#main-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#main-nav .main-logo-container .main-logo img{
+height: 2.5rem ;
+}
+#connect-button{
+    color: #1b0bb7;
+    font-weight: bold;
+    border-color: #1b0bb7;
+    border-style: solid;
+    letter-spacing: 1px;
+}
+#connect-button:hover{
+    color: #ffffff;
+    background-color: #12d1c5;
+    font-weight: bold;
+    border-color: #12d1c5;
+}
+
