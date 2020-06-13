@@ -3,7 +3,9 @@
     padding : 0px;
     box-sizing: border-box;
     font-family: "Poppins", "sans-serif";
+    z-index: 1000;
 }
+
 
 #main-nav{
     display: flex;
@@ -16,14 +18,108 @@ height: 2.5rem ;
 #connect-button{
     color: #1b0bb7;
     font-weight: bold;
-    border-color: #1b0bb7;
-    border-style: solid;
     letter-spacing: 1px;
 }
 #connect-button:hover{
     color: #ffffff;
     background-color: #12d1c5;
     font-weight: bold;
-    border-color: #12d1c5;
 }
 
+.section-container-home{
+    margin-bottom: 4rem;
+}
+#home-container{
+background-color: darkslategray;
+background-image: url("../images/hero-img.png");
+background-repeat: no-repeat;
+background-size: 10rem;
+background-position: right;
+background-position-y: 0px;
+color:whitesmoke;
+width:85vw;
+height:auto;
+min-height:500px;
+border-radius: 50px 0 0 50px;
+float: right;
+z-index: 1001;
+}
+#home-text{
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+    padding-left: 10%;
+    font-size: 1.5rem;
+}
+
+
+#work-section{
+    background-color:#8599ad;
+    width:95vw;
+    height:auto;
+    min-height:500px;
+    border-radius: 0 50px 50px 0;
+    z-index: 1001;
+    }
+#work-section-title {
+    padding-top: 80vh;
+    padding-bottom: 100vh;
+    justify-items: center;
+}  
+#work-section-title h1{
+    text-transform: uppercase;
+    font-size: 5.5rem;
+    font-weight: bolder;
+}
+
+/* #work-box-1 {
+    background-color:#3cb371;
+    position: absolute;
+    border-radius: 0 0 50px 0;
+    margin-top: -8rem;
+    padding-bottom: 10vw;
+    min-height: 300px;
+    width: 70vw;
+    z-index: 100;
+}
+#work-box-1-logo{
+    justify-items: center;
+    height: 4rem;
+    width: 4rem;
+
+}
+#okra-logo {
+    height: 5rem;
+    width: 5rem;
+}
+#okra-content {
+    position: relative;
+    text-align: center;
+    margin-top: 50vh;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (max-width:440px){
+    #home-container{
+        
+        background-position-y: 0px;  
+    }
+    #work-box-1 {
+        margin-left: 15vw;
+    }
+} */
