@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   z-index: 1000;
+  transition: 0.3s;
 }
 :root {
   --connect-button-color: #1b0bb7;
@@ -25,12 +26,13 @@
   letter-spacing: 1px;
   border-radius: 3px;
   border-style: solid;
-  border-color: darkviolet;
+  border-color: var(--connect-button-color);
 }
 #connect-button:hover {
   color: white;
   background-color: var(--connect-button-hover);
   font-weight: bold;
+  border-style: none;
 }
 
 /* <!-- home section --> */
@@ -57,7 +59,9 @@
   font-size: 1.5rem;
   color: white;
 }
-
+#home-text a {
+  color: white;
+}
 /* <!-- work section --> */
 #work-container {
   background-color: #2f3238;
@@ -79,11 +83,11 @@
   margin-top: -2rem;
 }
 .work-box {
-    height: auto;
-    min-height: 400px;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    transition: 0.3s;
+  height: auto;
+  min-height: 400px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  transition: 0.3s;
 }
 #work-1 {
   background-color: #0cac5c;
@@ -112,7 +116,7 @@
   background-color: #d8bfd8;
   width: 50%;
   height: 625px;
-  float:left;
+  float: left;
 }
 #work-2:hover {
   background-color: transparent;
@@ -139,7 +143,7 @@
   background-color: #fa8072;
   width: 50%;
   height: 625px;
-  overflow:hidden;
+  overflow: hidden;
 }
 #work-3:hover {
   background-color: transparent;
@@ -241,7 +245,7 @@
   min-height: 100vh;
   height: auto;
   width: 80%;
-  
+
   display: block;
   text-align: center;
   border-radius: 10px 10px 10px 10px;
@@ -285,7 +289,7 @@
   display: block;
   z-index: 2000;
   position: relative;
-  float:none;
+  float: none;
   margin-top: -10vh;
 }
 #footer-container1 {
@@ -297,8 +301,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  #work-2,#work-3 {
+  #work-2,
+  #work-3 {
     width: 100%;
-    float:none;
+    float: none;
   }
 }
