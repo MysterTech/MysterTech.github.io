@@ -46,6 +46,7 @@
   background-size: 10rem;
   background-position: right;
   background-position-y: 0px;
+  box-shadow: 5px 10px 18px whitesmoke;
   width: 85%;
   height: auto;
   min-height: 500px;
@@ -238,17 +239,15 @@
   text-align: center;
 }
 #about-box {
-  margin: auto;
   margin-top: -20vh;
   margin-bottom: 0;
-  font-size: 1.5rem;
   min-height: 100vh;
   height: auto;
-  width: 80%;
-
-  display: block;
-  text-align: center;
-  border-radius: 10px 10px 10px 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.flex-direction {
+  flex-direction: row;
 }
 #about-main-title {
   margin: auto;
@@ -258,7 +257,7 @@
 }
 
 #about-1 {
-  width: 48%;
+  width: 40%;
   height: auto;
   min-height: 400px;
   padding-top: 4rem;
@@ -268,6 +267,10 @@
   border-width: 3px;
   border-color: #ffd700;
   background-color: #ffffff;
+}
+#about-1 img {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 #about-1-text {
   font-size: 1rem;
@@ -280,7 +283,7 @@
 }
 
 #footer-container {
-  background-color: #2f3238;
+  background-color: #141c3a;
   color: whitesmoke;
   width: 80vw;
   min-height: 20vh;
@@ -305,5 +308,12 @@
   #work-3 {
     width: 100%;
     float: none;
+  }
+  #about-1 {
+    width: 100%;
+    float: none;
+  }
+  .flex-direction {
+    flex-direction: column;
   }
 }
