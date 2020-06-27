@@ -7,7 +7,7 @@
   transition: 0.3s;
 }
 :root {
-  --connect-button-color: #1b0bb7;
+  --connect-button-color: #7510f7;
   --connect-button-hover: #12d1c5;
 }
 
@@ -40,7 +40,7 @@
   margin-bottom: 4rem;
 }
 #home-container {
-  background-color: darkviolet;
+  background-color: #7510f7;
   background-image: url("../images/hero-img.png");
   background-repeat: no-repeat;
   background-size: 10rem;
@@ -227,7 +227,7 @@
 
 /* <!-- about section --> */
 #about-description {
-  background-color: darkviolet;
+  background-color: #7510f7;
   margin-top: -25vh;
   padding-bottom: 10vh;
   color: whitesmoke;
@@ -310,12 +310,51 @@
   text-align: center;
 }
 
+#footer-container1 {
+  background-color: #7510f7;
+  color: whitesmoke;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1500;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -4rem;
+}
+#logo-mystertech {
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+#logo-mystertech-icon {
+  margin: auto;
+  margin-bottom: 0;
+}
+.mystertech::before {
+  content: "research. design. implement.";
+  font-size: 3rem;
+}
+.mt-logo::before {
+  content: url("../images/brand-logo-without-title-white-80x80.png");
+  font-size: 3rem;
+}
+#flex-center {
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin: auto;
+  margin-top: 0;
+}
+
 #footer-text1 {
+  display: flex;
   justify-items: center;
   align-content: center;
   left: 0;
   padding-top: 7rem;
   text-align: center;
+  flex-direction: row;
 }
 .grid {
   display: flex;
@@ -347,18 +386,6 @@
   }
 }
 
-#footer-container1 {
-  background-color: darkviolet;
-  color: whitesmoke;
-  width: 100%;
-  min-height: 100vh;
-  z-index: 1500;
-  position: relative;
-  margin-top: -4rem;
-  justify-items: center;
-  align-items: center;
-  display: flex;
-}
 #call-to-action {
   -webkit-box-flex: 1;
   flex-grow: 1;
@@ -370,6 +397,7 @@
   background-color: #141c3a;
   box-shadow: 5px 10px 18px gray;
   border-radius: 5px;
+  min-height: 8rem;
 }
 
 .flex-center {
@@ -438,4 +466,22 @@
   .flex-direction {
     flex-direction: column;
   }
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+.title {
+  font-family: poppins;
+}
+
+.level-item {
+  width: 34%;
+  display: flex;
+  justify-content: center;
 }
