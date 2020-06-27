@@ -471,17 +471,26 @@
 .box {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   color: white;
   width: 100%;
+  padding-top: 1.5rem;
 }
 
 .title {
   font-family: poppins;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
 
 .level-item {
   width: 34%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.column {
+  justify-content: center;
+  align-items: center;
 }
