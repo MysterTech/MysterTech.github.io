@@ -399,7 +399,21 @@
   border-radius: 5px;
   min-height: 8rem;
 }
-
+#cta-box-col-1 {
+}
+.button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7510f7;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 10px;
+}
+#button_text:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #7510f7;
+}
 .flex-center {
   width: 100%;
   min-height: 50vh;
@@ -451,7 +465,7 @@
   flex-direction: row;
   color: white;
   width: 90vw;
-  padding-top: 1.5rem;
+  padding-top: 2rem;
 }
 
 .title {
@@ -504,4 +518,10 @@
 #quote {
   text-align: center;
   font-size: 3rem;
+}
+
+@media screen and (max-width: 1120px) {
+  .box {
+    padding-top: 1.5rem;
+  }
 }
