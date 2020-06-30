@@ -4,28 +4,6 @@
 @import "screen-sizes";
 @import "globals";
 
-@media only screen and (max-width: $break-large) {
-  .row {
-    flex-direction: column;
-  }
-}
-#work-row-1 {
-  margin: auto;
-}
-#work-row-2 {
-  margin: auto;
-}
-#work-row-3 {
-  margin: auto;
-}
-
-.column {
-  display: flex;
-  justify-content: center;
-  color: white;
-  flex-direction: column;
-}
-
 ///* <!-- header --> */
 #main-nav {
   display: flex;
@@ -104,10 +82,34 @@
   border-radius: 25px;
 }
 
-.work-column {
+.row {
+  flex-direction: row;
+}
+@media only screen and (max-width: $break-large) {
+  .row {
+    flex-direction: column;
+  }
+}
+#work-row-1 {
+  margin: auto;
+}
+#work-row-2 {
+  margin: auto;
+}
+#work-row-3 {
+  margin: auto;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
   min-height: 400px;
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+.work-column {
   border-style: solid;
   border-width: 10px;
   box-shadow: 5px 10px 18px whitesmoke;
@@ -203,6 +205,157 @@
   display: block;
   text-align: center;
 }
+#about-grid {
+  margin: 0 auto;
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+#about-grid-row-1 {
+  justify-content: space-between;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.about-column {
+  width: 48%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: gold;
+  background-color: white;
+  box-shadow: 5px 10px 18px black;
+  border-radius: 20px;
+
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about-text {
+    width: 70%;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+    margin: auto;
+    display: block;
+    color: black;
+  }
+}
+
+///* <!-- footer section --> */
+#footer-container {
+  color: whitesmoke;
+  width: 100%;
+}
+
+.call-to-action {
+  width: 90vw;
+  margin: 0 auto;
+  margin-top: -2rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  background-color: #141c3a;
+  box-shadow: 5px 10px 18px gray;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1500;
+}
+
+#cta-row {
+  margin-right: 0px;
+  margin-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8rem;
+}
+.footer-col {
+  margin: 1rem 0;
+  padding: 0;
+  width: 33%;
+  height: 100%;
+  min-height: unset;
+
+  h1,
+  p {
+    margin: auto;
+    margin-bottom: 0;
+  }
+}
+#cta-col-11 {
+}
+#cta-col-12 {
+  text-align: center;
+}
+#cta-col-13 {
+  a {
+    display: block;
+    margin: auto;
+  }
+}
+.button {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #7510f7;
+  padding: 0.7rem;
+  color: white;
+  border-radius: 10px;
+  margin-top: -0.7rem;
+}
+#button_text:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #7510f7;
+}
+
+#footer-content {
+  background-color: #7510f7;
+  margin-top: -4rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+#logo-mystertech-icon {
+  margin-bottom: 0.5rem;
+}
+#logo-mystertech {
+  margin-bottom: 1rem;
+}
+.icon-3d {
+  padding: 10px;
+  animation: icon3d 200ms 10;
+  color: #fff;
+}
+.icon-3d:hover {
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+.copyright {
+  opacity: 0.7;
+  position: absolute;
+  bottom: 5vh;
+}
 
 @media only screen and (max-width: $break-large) {
   .row {
@@ -214,5 +367,11 @@
   #work-col-22,
   #work-col-31 {
     width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+  #logo-mystertech {
+    text-align: center;
   }
 }
