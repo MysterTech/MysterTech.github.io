@@ -72,7 +72,7 @@
   min-height: 500px;
 }
 #work-section-title {
-  padding-top: 80vh;
+  padding-top: 90vh;
   justify-items: center;
   color: whitesmoke;
   text-transform: uppercase;
@@ -397,9 +397,11 @@
   background-color: #141c3a;
   box-shadow: 5px 10px 18px gray;
   border-radius: 5px;
-  min-height: 8rem;
+  min-height: 7.8rem;
 }
 #cta-box-col-1 {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .button {
   border-style: solid;
@@ -408,6 +410,7 @@
   padding: 0.7rem;
   color: white;
   border-radius: 10px;
+  margin-top: -0.7rem;
 }
 #button_text:hover {
   color: white;
@@ -483,6 +486,7 @@
   text-align: center;
 }
 .column {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
