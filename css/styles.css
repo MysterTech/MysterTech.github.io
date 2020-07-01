@@ -119,15 +119,15 @@
             flex-direction: column; } }
 /* line 93, ../scss/styles.scss */
 #work-row-1 {
-  margin: auto; }
+  margin: 0; }
 
 /* line 96, ../scss/styles.scss */
 #work-row-2 {
-  margin: auto; }
+  margin: 0; }
 
 /* line 99, ../scss/styles.scss */
 #work-row-3 {
-  margin: auto; }
+  margin: 0; }
 
 /* line 103, ../scss/styles.scss */
 .column {
