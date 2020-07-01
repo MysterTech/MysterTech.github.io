@@ -400,13 +400,17 @@
   display: block; }
 
 /* line 330, ../scss/styles.scss */
+#quote {
+  text-align: center; }
+
+/* line 333, ../scss/styles.scss */
 .icon-3d {
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
           animation: icon3d 200ms 10;
   color: #fff; }
 
-/* line 335, ../scss/styles.scss */
+/* line 338, ../scss/styles.scss */
 .icon-3d:hover {
   -webkit-animation: icon3d 200ms infinite;
           animation: icon3d 200ms infinite; }
@@ -434,21 +438,21 @@
     text-shadow: -8px -4px #f44336, -5px -4px #2196f3; }
   100% {
     text-shadow: -5px 0 #f44336, 5px -4px #2196f3; } }
-/* line 357, ../scss/styles.scss */
+/* line 360, ../scss/styles.scss */
 .copyright {
   opacity: 0.7;
   position: absolute;
   bottom: 5vh; }
 
 @media only screen and (max-width: 768px) {
-  /* line 364, ../scss/styles.scss */
+  /* line 367, ../scss/styles.scss */
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  /* line 367, ../scss/styles.scss */
+  /* line 370, ../scss/styles.scss */
   #work-col-11,
   #work-col-12,
   #work-col-21,
@@ -456,11 +460,11 @@
   #work-col-31 {
     width: 100%; }
 
-  /* line 374, ../scss/styles.scss */
+  /* line 377, ../scss/styles.scss */
   .column {
     width: 100%; }
 
-  /* line 377, ../scss/styles.scss */
+  /* line 380, ../scss/styles.scss */
   #logo-mystertech {
     text-align: center; } }
 
