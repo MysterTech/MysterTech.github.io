@@ -46,8 +46,12 @@
   border-radius: 50px 0 0 50px;
   float: right;
 }
-#home-text {
+#home-heading {
+  padding: 0;
   padding-top: 25vh;
+  color: white;
+}
+#home-text {
   padding-bottom: 10vh;
   padding-left: 0;
   padding-right: 0;
@@ -56,7 +60,7 @@
 }
 #home-text a {
   color: white;
-  font-size: large;
+  font-size: 1rem;
 }
 
 ///* <!-- work section --> */
