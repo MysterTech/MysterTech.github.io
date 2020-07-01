@@ -467,5 +467,11 @@
   /* line 380, ../scss/styles.scss */
   #logo-mystertech {
     text-align: center; } }
+@media only screen and (max-width: 400px) {
+  /* line 389, ../scss/styles.scss */
+  #work-col-22 a img,
+  #work-col-31 a img {
+    width: 15rem;
+    height: auto; } }
 
 /*# sourceMappingURL=styles.css.map */

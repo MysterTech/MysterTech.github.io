@@ -381,3 +381,15 @@
     text-align: center;
   }
 }
+
+@media only screen and (max-width: $break-small) {
+  #work-col-22,
+  #work-col-31 {
+    a {
+      img {
+        width: 15rem;
+        height: auto;
+      }
+    }
+  }
+}
