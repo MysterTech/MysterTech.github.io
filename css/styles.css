@@ -341,18 +341,19 @@
   .footer-col h1,
   .footer-col p {
     margin: auto;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-align: center; }
 
-/* line 287, ../scss/styles.scss */
+/* line 288, ../scss/styles.scss */
 #cta-col-12 {
   text-align: center; }
 
-/* line 291, ../scss/styles.scss */
+/* line 292, ../scss/styles.scss */
 #cta-col-13 a {
   display: block;
   margin: auto; }
 
-/* line 296, ../scss/styles.scss */
+/* line 297, ../scss/styles.scss */
 .button {
   border-style: solid;
   border-width: 1px;
@@ -362,13 +363,13 @@
   border-radius: 10px;
   margin-top: -0.7rem; }
 
-/* line 305, ../scss/styles.scss */
+/* line 306, ../scss/styles.scss */
 #button_text:hover {
   color: white;
   text-decoration: none;
   background-color: #7510f7; }
 
-/* line 311, ../scss/styles.scss */
+/* line 312, ../scss/styles.scss */
 #footer-content {
   background-color: #7510f7;
   margin-top: -4rem;
@@ -388,22 +389,24 @@
           flex-direction: column;
   position: relative; }
 
-/* line 321, ../scss/styles.scss */
+/* line 322, ../scss/styles.scss */
 #logo-mystertech-icon {
   margin-bottom: 0.5rem; }
 
-/* line 324, ../scss/styles.scss */
+/* line 325, ../scss/styles.scss */
 #logo-mystertech {
-  margin-bottom: 1rem; }
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: block; }
 
-/* line 327, ../scss/styles.scss */
+/* line 330, ../scss/styles.scss */
 .icon-3d {
   padding: 10px;
   -webkit-animation: icon3d 200ms 10;
           animation: icon3d 200ms 10;
   color: #fff; }
 
-/* line 332, ../scss/styles.scss */
+/* line 335, ../scss/styles.scss */
 .icon-3d:hover {
   -webkit-animation: icon3d 200ms infinite;
           animation: icon3d 200ms infinite; }
@@ -431,21 +434,21 @@
     text-shadow: -8px -4px #f44336, -5px -4px #2196f3; }
   100% {
     text-shadow: -5px 0 #f44336, 5px -4px #2196f3; } }
-/* line 354, ../scss/styles.scss */
+/* line 357, ../scss/styles.scss */
 .copyright {
   opacity: 0.7;
   position: absolute;
   bottom: 5vh; }
 
 @media only screen and (max-width: 768px) {
-  /* line 361, ../scss/styles.scss */
+  /* line 364, ../scss/styles.scss */
   .row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column; }
 
-  /* line 364, ../scss/styles.scss */
+  /* line 367, ../scss/styles.scss */
   #work-col-11,
   #work-col-12,
   #work-col-21,
@@ -453,11 +456,11 @@
   #work-col-31 {
     width: 100%; }
 
-  /* line 371, ../scss/styles.scss */
+  /* line 374, ../scss/styles.scss */
   .column {
     width: 100%; }
 
-  /* line 374, ../scss/styles.scss */
+  /* line 377, ../scss/styles.scss */
   #logo-mystertech {
     text-align: center; } }
 

@@ -280,6 +280,7 @@
   p {
     margin: auto;
     margin-bottom: 0;
+    text-align: center;
   }
 }
 #cta-col-11 {
@@ -322,7 +323,9 @@
   margin-bottom: 0.5rem;
 }
 #logo-mystertech {
+  margin: 0 auto;
   margin-bottom: 1rem;
+  display: block;
 }
 .icon-3d {
   padding: 10px;
