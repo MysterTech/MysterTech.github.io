@@ -49,11 +49,12 @@
 #home-heading {
   padding: 0;
   padding-top: 25vh;
+  padding-left: 1rem;
   color: white;
 }
 #home-text {
   padding-bottom: 10vh;
-  padding-left: 0;
+  padding-left: 1rem;
   padding-right: 0;
   font-size: 1.5rem;
   color: white;
@@ -396,5 +397,12 @@
         height: auto;
       }
     }
+  }
+  #home-heading {
+    padding-left: 0;
+  }
+  #home-text {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
