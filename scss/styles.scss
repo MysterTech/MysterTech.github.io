@@ -20,6 +20,7 @@
   border-radius: 3px;
   border-style: solid;
   border-color: $connect-button-color;
+  box-sizing: border-box;
 }
 #connect-button:hover {
   color: white;
@@ -91,11 +92,6 @@
 .row {
   flex-direction: row;
 }
-@media only screen and (max-width: $break-large) {
-  .row {
-    flex-direction: column;
-  }
-}
 #work-row-1 {
   margin: 0;
 }
@@ -128,6 +124,9 @@
     }
   }
 }
+.work-column a:hover {
+  text-decoration: none;
+}
 #work-text {
   width: 70%;
   text-align: center;
@@ -135,6 +134,7 @@
   padding-top: 4rem;
   margin: auto;
   display: block;
+  color: black;
 }
 
 #work-col-11 {
@@ -144,16 +144,20 @@
 }
 #work-col-11:hover {
   background-color: black;
+  #work-text {
+    color: white;
+  }
 }
 #work-col-12 {
   width: 50%;
   background-color: beige;
   border-color: beige;
-  color: black;
 }
 #work-col-12:hover {
   background-color: black;
-  color: white;
+  #work-text {
+    color: white;
+  }
 }
 #work-col-21 {
   width: 50%;
@@ -162,6 +166,9 @@
 }
 #work-col-21:hover {
   background-color: black;
+  #work-text {
+    color: white;
+  }
 }
 #work-col-22 {
   width: 50%;
@@ -177,6 +184,9 @@
 }
 #work-col-22:hover {
   background-color: black;
+  #work-text {
+    color: white;
+  }
 }
 #work-col-31 {
   width: 100%;
@@ -191,6 +201,9 @@
 }
 #work-col-31:hover {
   background-color: black;
+  #work-text {
+    color: white;
+  }
 }
 
 ///* <!-- about section --> */
